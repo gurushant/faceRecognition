@@ -1,0 +1,33 @@
+<!-- <!DOCTYPE HTML>
+<html>
+<head>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="js/angular/angular.min.js"></script>
+    <script type="text/javascript" src="angular/controllers.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/square.css">
+</head>
+
+<body ng-app="app" ng-controller="SquareController">
+ -->
+    <div class="container sq-box-container">
+        
+        <div class="row">
+                <input class=" myButton file-input pull-left img-text-input" accept=".jpg, .png, .jpeg" type="file" value="" name="url" id="upload-input" onchange="angular.element(this).scope().selectFileToSearch(this.files)" />
+                <input class="myButton file-input pull-left img-text-input" accept=".jpg, .png, .jpeg" type="file" value="" name="url" id="upload-input" onchange="angular.element(this).scope().selectFileToSearch_2(this.files)" />
+                
+        </div>
+        <div class="row">
+            <div>
+                <button id="upload" class="myButton locButton" ng-click="compareFaces()">Upload</button>
+                <label>{{statusMessage}}</label>
+                </div>
+        </div>
+    </div>
+
+<!--     <canvas id="myCanvas1" width="900" height="900" ></canvas>
+</body>
+
+</html>
+ -->

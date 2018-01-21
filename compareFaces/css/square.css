@@ -1,0 +1,94 @@
+.canvas{
+    border: 1px solid #ddd;
+    width: 500px;
+    height: 500px;
+    margin:0 auto;
+    position:relative;
+	background:#ddd;
+	}
+
+.rectangle {
+        border: 1px solid #FF0000;
+        position: absolute;
+    }    
+
+.actualImg{
+    margin-top: 7%;}
+
+.canvas1{margin-top: 0%;
+    margin-left: 0%;
+    border: 1px solid #000000;
+    width: 900px;
+    height: 900px;
+	}
+.tableClass{
+	margin-left: 57%;
+    margin-top: -35%;
+}
+
+
+body {
+background:#eee;
+}
+
+.sq-box-container {
+padding:50px 0;
+
+}
+
+.right-border {
+border-right:1px solid #c59696;
+}
+
+.cls-selector,.cls-cordinator {
+    padding: 0 15px;
+    border: 1px solid #c59696;
+}
+.header-selector,.header-cordinator {
+    background: #cecece; border: 1px solid #c59696;
+}
+.header-text {padding:5px;line-height:20px;font-weight:bold;}
+.item-text {padding:5px;line-height:20px;}
+.margin-left-25 {margin-left:25px;}
+.nav-icons {position:absolute;top:50%;font-size:35px;z-index:5;color:#fff;font-weight:normal;}
+.nav-left {left:0}
+.nav-right {right:0;}
+.item-wrapper {border: 1px solid #c59696;}
+.item-text input[type="radio"] {
+    cursor: pointer;
+}
+.item-wrapper :hover {
+background:#d4caca;
+}
+
+.margin-20{margin:20px;}
+.lbl_msg{margin-left: 0%;}
+
+.myButton {
+    background-color:#44c767;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+    background-color:#5cbf2a;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+.locButton{
+    margin-top: 35px;
+    margin-left: 327px;
+}
+
